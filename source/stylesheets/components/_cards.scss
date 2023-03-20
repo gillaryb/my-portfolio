@@ -53,6 +53,42 @@
   }
 }
 
+.card {
+  width: 50%;
+
+  border-radius: 20px;
+  padding: 5px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+}
+
+.card-content {
+  background: #171425;
+  border-radius: 17px;
+  color: white;
+  padding: 20px;
+
+  h2, h3{
+    color:#EE2A9B;
+  }
+}
+
+.card-content-skills{
+  ul{
+    list-style: none;
+    padding: 0;
+  }
+
+  li{
+    display: inline-block;
+    color: #FFEBB4;
+    font-size: 22px;
+    padding-right: 10px;
+
+  }
+}
+
+
 // Smallest device
 @media (min-width: 100px) and (max-width: 575px) {
   .cards {
