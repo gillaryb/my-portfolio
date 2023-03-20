@@ -1,0 +1,19 @@
+.wrapper-bottom{
+  ul {
+    list-style: none;
+  }
+}
+
+.soc-link{
+  display: inline-block;
+  padding: 10px;
+  font-size: 25px;
+}
+
+.link{
+  color: #EE2A9B;
+
+  &:hover{
+    color: #A631D6;
+  }
+}
