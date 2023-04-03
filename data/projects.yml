@@ -1,19 +1,19 @@
-- name: Longest Word Game
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
+- name: NaniMiru
+  description: A mobile like application that allows a group people to easily and quickly come to consesus which movie to watch.
+  image: projects/naniMiru.png
+  url: https://www.nanimiru.baby/
 
-- name: Movie Watchlist
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
+- name: Kigurumi Kingdom
+  description: A clone of AirBnb that connects individuals with the colorful and charismatic mascots they love in Japan.
+  image: projects/kigurumiKingdom.png
+  url: https://kigurumikingdom.herokuapp.com/
 
-- name: Airbnb
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
+- name: TenkiWa
+  description: A clone of weather application that uses api to fetch the data for the next 5 days
+  image: projects/tenkiWa.png
+  url: https://master--golden-kulfi-6a1c55.netlify.app/
 
-- name: Final project
+- name: Movie watchlist 
   description: Decent description of the app
   image: projects/placeholder.png
   url: https://www.google.com
