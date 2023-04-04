@@ -8,7 +8,8 @@
   overflow: hidden;
   height: 120px;
   background: white;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  // box-shadow: rgba(0, 0, 0, 0.4) 10px 20px 30px, rgba(0, 0, 0, 0.3) 10px 1px 53px 3px, rgba(1, 0, 0, 0.2) 0px -1px 3px inset;
+  box-shadow: 4px 8px 24px 0px rgba(166, 44, 214, 0.5);
   display: flex;
   align-items: center;
 }
