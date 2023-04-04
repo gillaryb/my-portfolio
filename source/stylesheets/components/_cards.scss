@@ -65,7 +65,7 @@
 
 .card {
   width: 768px;
-  height: 400px;
+  height: 500px;
   margin: 0 auto;
   background-color: #011522;
   border-radius: 8px;
@@ -113,17 +113,24 @@
   }
 }
 
+.card-content-about{
+  p {
+    font-size: 18px;
+  }
+}
+
 .card-content-skills{
   ul{
     list-style: none;
     padding: 0;
+    padding-top: 8px;
   }
 
   li{
     display: inline-block;
     color: #FFEBB4;
-    font-size: 32px;
-    padding-right: 10px;
+    font-size: 40px;
+    padding-right: 16px;
 
   }
 }
