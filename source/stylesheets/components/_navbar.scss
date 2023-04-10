@@ -16,5 +16,8 @@
 .nav-item {
   a {
     color: white;
+    &:hover {
+      color: #a631d6;
+    }
   }
 }
