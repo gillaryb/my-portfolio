@@ -13,7 +13,7 @@
   image: projects/tenkiWa.png
   url: https://master--golden-kulfi-6a1c55.netlify.app/
 
-- name: Movie watchlist 
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
+- name: WordWise
+  description: A dictionary application made with react
+  image: projects/wordWise.png
+  url: https://luminous-lolly-2d0ca9.netlify.app/
