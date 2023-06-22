@@ -1,4 +1,130 @@
 .my-projects{
-  height: 100vh;
   background-color: #011622;
+
+  h2{
+    color:#EE2A9B;
+  }
+
+  a{
+    text-decoration: none;
+  }
+}
+
+.project-card{
+  max-width: 300px;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  box-shadow: 4px 4px 4px 4px rgba(154, 0, 215, 0.5);
+  // box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  border: 1px solid transparent;
+}
+
+.content {
+  padding: 1.1rem;
+}
+
+.project-card img {
+  object-fit: contain;
+  // object-fit: cover;
+  object-position: 50% 50%;
+  width: 100%;
+  height: 150px;
+
+}
+
+.title {
+  color: #171425;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+}
+
+.desc {
+  margin-top: 0.5rem;
+  color: #6B7280;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.action {
+  display: inline-flex;
+  margin-top: 1rem;
+  color: #ffffff;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  align-items: center;
+  gap: 0.25rem;
+  background-color: #7079f0;
+  box-shadow: inset 0 0 1.6em -0.6em #714da6;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+// .action  {
+//   transition: .3s ease;
+// }
+
+.action:hover  {
+  // transform: translateX(4px);
+  transform: translate(-0.05em, -0.05em);
+  box-shadow: 0.15em 0.15em #5566c2;
+}
+
+.project-cards{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  // padding: 16px;
+  // flex-grow: 1;
+  gap: 16px;
+}
+
+// Smallest device
+@media (min-width: 100px) and (max-width: 575px) {
+  .project-cards {
+    grid-template-columns: 1fr ;
+  }
+  .external-link {
+    opacity: 1;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .project-cards {
+    grid-template-columns: 1fr 1fr;
+  }
+  .external-link {
+    opacity: 1;
+  }
+}
+
+@media(min-width: 650px){
+  .project-cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .project-cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .external-link {
+    opacity: 0;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .project-cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .project-cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
