@@ -1,10 +1,16 @@
 .navbar-lewagon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  // display: flex;
+  // justify-content: center;
+  // text-align: center;
   background: #181425;
 }
 
+
+.center-nav {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
 .navbar-lewagon .navbar-collapse {
   flex-grow: 0;
 }

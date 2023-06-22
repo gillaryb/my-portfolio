@@ -1,8 +1,9 @@
 .about-page{
   // background-color:#EFF4F8;
-  background-image: url(https://images.unsplash.com/photo-1563291074-2bf8677ac0e5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2614&q=80);
+  background:#A631D6;
   height: 100vh;
-  position: relative;
+  // position: relative;
+  // margin: 0 auto;
 
   a{
     text-decoration: none;
@@ -38,12 +39,12 @@
 //   margin: 8px 24px 20px;
 // }
 
-.about-page-content{
-  display: flex;
-  gap: 18px;
-  position: absolute;
-  top: 40px;
-}
+// .about-page-content{
+//   // display: flex;
+//   // gap: 18px;
+//   // position: absolute;
+//   // top: 40px;
+// }
 
 .about-page-portrait{
   img {
