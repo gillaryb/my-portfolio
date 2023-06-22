@@ -3,8 +3,7 @@
   background:#A631D6;
   height: 100vh;
   // position: relative;
-  // margin: 0 auto;
-
+  margin: 0 auto;
   a{
     text-decoration: none;
   }
@@ -46,15 +45,15 @@
 //   // top: 40px;
 // }
 
-.about-page-portrait{
-  img {
-    width: 400px;
-    height: 500px;
-    object-fit: cover;
-    object-position: 50% 50%;
-    border-top-left-radius: 80px;
-    border-top-right-radius: 80px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-  }
-}
+// .about-page-portrait{
+//   img {
+//     width: 400px;
+//     height: 500px;
+//     object-fit: cover;
+//     object-position: 50% 50%;
+//     border-top-left-radius: 80px;
+//     border-top-right-radius: 80px;
+//     border-bottom-left-radius: 5px;
+//     border-bottom-right-radius: 5px;
+//   }
+// }
